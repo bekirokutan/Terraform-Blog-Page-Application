@@ -8,10 +8,9 @@ module "phonebook" {
   hostname = "bekirokutan.com"
   subdomain_name = "blog.bekirokutan.com"
   repositoryname = "Terraform-Blog-Page-Application"
-  endpointpath = "/src/dbserver.endpoint"  #settings.py de aynı path olmalı
+  endpointpath = "src/dbserver.endpoint"  #settings.py de aynı path olmalı
   imageid= "ami-0e472ba40eb589f49" #ubuntu image 18.04
   git-user-name = "bekirokutan"
   git-repo-name = "Terraform-Blog-Page-Application"
-  gittoken = "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"
-
+  gittoken = "xxxxxxxxxxxxxxxxxxxxxxx"
 }

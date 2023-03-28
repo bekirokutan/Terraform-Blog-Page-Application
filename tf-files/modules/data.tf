@@ -1,4 +1,4 @@
-data "template_file" "phonebook" {
+data "template_file" "terrablog" {
   template = "${file("${path.module}/userdata.sh")}"
   vars = {
     userdata-git-user = var.git-user-name
